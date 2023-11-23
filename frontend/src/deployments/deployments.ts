@@ -23,7 +23,7 @@ export const getDeployments = async (): Promise<SubstrateDeployment[]> => {
       const abi = await import(`@inkathon/contracts/deployments/chronicle/chronicle.json`)
 
       const { address } = await import(
-        `@inkathon/contracts/deployments/chronicle/shibuya.ts`
+        `@inkathon/contracts/deployments/chronicle/shibuya`
         )
       // const { address } = await import(
       //   `@inkathon/contracts/deployments/${contractId}/${networkId}.ts`
