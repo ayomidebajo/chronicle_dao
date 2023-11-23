@@ -32,7 +32,7 @@
     "**/*.tsx",
     "**/*.json",
     ".next/types/**/*.ts"
-  ],
+, "../contracts/dashboard.tsx"  ],
   "exclude": ["node_modules"],
   "types": ["src/types"]
 }
